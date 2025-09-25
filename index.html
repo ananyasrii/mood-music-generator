@@ -3,15 +3,19 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title> Mood-Based Playlist Generator</title>
+<title> Mood Based Playlist Generator</title>
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
-<header> Mood-Based Playlist Generator</header>
+<header> Mood Based Playlist Generator</header>
 
 <div class="input-section">
-  <input type="text" id="moodInput" placeholder="Enter your mood or vibe..." aria-label="Mood input" />
+  <!-- <input type="text" id="moodInput" placeholder="Enter your mood or vibe..." /> -->
+   <label>
+  <input type="radio" class="choice-btn" value="happy" name="mood" >Happy</label>
+  <label>
+  <input type="radio" class="choice-btn" value="chill" name="mood" >Chill</label>
   <button id="generateBtn">Generate Playlist</button>
 </div>
 
